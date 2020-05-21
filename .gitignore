@@ -1,0 +1,15 @@
+# 编辑器配置
+.vscode
+.idea
+
+# 依赖
+node_modules
+
+# lock 文件
+yarn.lock
+package-lock.json
+
+dist
+build
+
+.DS_store
