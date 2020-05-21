@@ -1,0 +1,8 @@
+{
+  "name": "qnxg-project",
+  "version": "1.0.0",
+  "description": "模板项目",
+  "main": "index.js",
+  "author": "wangjq4214",
+  "license": "MIT"
+}

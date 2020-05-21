@@ -31,5 +31,8 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "dependencies": {
+    "yeoman-generator": "^4.10.1"
   }
 }
