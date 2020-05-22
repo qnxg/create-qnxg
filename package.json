@@ -13,6 +13,11 @@
   "bin": {
     "create-qnxg": "cli.js"
   },
+  "files": [
+    "cli.js",
+    "index.js",
+    "lib"
+  ],
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
