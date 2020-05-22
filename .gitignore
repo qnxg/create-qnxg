@@ -8,3 +8,8 @@ node_modules
 # lock 文件
 yarn.lock
 package-lock.json
+
+dist
+build
+
+.DS_store
