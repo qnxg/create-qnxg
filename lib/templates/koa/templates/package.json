@@ -1,0 +1,60 @@
+{
+  "name": "commit_back",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "dev": "cross-env NODE_ENV=development nodemon --watch 'app/**/*' -e ts --exec 'ts-node' ./app/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangjq4214/commit_back.git"
+  },
+  "author": "wangjq4214",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangjq4214/commit_back/issues"
+  },
+  "homepage": "https://github.com/wangjq4214/commit_back#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@types/koa": "^2.11.3",
+    "@types/koa__router": "^8.0.2",
+    "@types/node": "^14.0.5",
+    "@typescript-eslint/eslint-plugin": "^3.0.0",
+    "@typescript-eslint/parser": "^3.0.0",
+    "commitizen": "^4.1.2",
+    "cross-env": "^7.0.2",
+    "cz-conventional-changelog": "^3.2.0",
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "husky": "^4.2.5",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^8.0.8",
+    "koa": "^2.12.0",
+    "koa-body": "^4.1.3",
+    "koa-jwt": "^4.0.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.10"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
