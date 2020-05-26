@@ -1,6 +1,6 @@
 {
   "name": "create-qnxg",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "团队内使用的cli工具",
   "main": "index.js",
   "repository": "https://github.com/qnxg/create-qnxg",
