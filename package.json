@@ -1,10 +1,10 @@
 {
   "name": "create-qnxg",
-  "version": "0.5.1",
-  "description": "团队内使用的cli工具",
+  "version": "0.6.0",
+  "description": "易千内部使用的脚手架工具",
   "main": "index.js",
   "repository": "https://github.com/qnxg/create-qnxg",
-  "author": "wangjq4214",
+  "author": "1000",
   "license": "MIT",
   "scripts": {
     "commit": "git-cz",

@@ -2,8 +2,8 @@
 
 const yParser = require('yargs-parser');
 const semver = require('semver');
-const {existsSync} = require('fs');
-const {join} = require('path');
+const { existsSync } = require('fs');
+const { join } = require('path');
 const chalk = require('chalk');
 const run = require('./lib/run');
 
@@ -26,7 +26,7 @@ if (!semver.satisfies(process.version, '>= 8.0.0')) {
 }
 
 const name = args._[0] || '';
-const {type} = args;
+const { type } = args;
 delete args.type;
 
 (async () => {
